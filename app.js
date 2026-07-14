@@ -6,7 +6,7 @@ const CONFIG = {
   repo:  "https://github.com/ASIC-Network/analog-tutorials",     // EDIT: this repo's github url
   mainSite: "https://asicnetwork.net",
   branch: "main",
-  pagesDir: "pages",
+  pagesDir: "Pages",
   maxPages: 60
 };
 
