@@ -6,7 +6,7 @@ Getting started with open-source tools. For analog, the basic flow is xschem for
 ## Before you leave!
 ### Tutorials
 Continue working with the environment and experiment with doing the following blocks from schematic to layout:
-1. [Ring Oscillator](
+1. [Ring Oscillator](https://asic-network.github.io/analog-tutorials/#page_2)
 
 ### Other resources
 1. [Terminology](https://github.com/ASIC-Network/analog-tutorials/wiki/Terminology)
