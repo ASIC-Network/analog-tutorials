@@ -309,7 +309,7 @@ function renderEmpty(){
   tocBox.style.display = "none";
   tbTitle.textContent = "No pages";
   content.innerHTML = '<div class="state-card"><h2>No pages found</h2>'
-    + "<p>This site renders <code>pages/page_1.md</code>, <code>pages/page_2.md</code>, &hellip; Add <code>pages/page_1.md</code> (copy <code>pages/TEMPLATE.md</code>) and reload. Numbering must be sequential with no gaps.</p>"
+    + "<p>This site renders <code>Pages/page_1.md</code>, <code>Pages/page_2.md</code>, &hellip; Add <code>Pages/page_1.md</code> (copy <code>Pages/TEMPLATE.md</code>) and reload. Numbering must be sequential with no gaps.</p>"
     + (isFile ? "<p>You opened this file directly. <code>fetch()</code> needs a server: run <code>python3 -m http.server</code> in this folder and open <code>http://localhost:8000</code>.</p>" : "")
     + "</div>";
 }
