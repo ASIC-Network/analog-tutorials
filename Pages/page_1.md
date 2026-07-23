@@ -1,14 +1,22 @@
 ### Welcome to the analog-tutorials wiki! 
-Getting started with open-source tools. For analog, the basic flow is xschem for simulation and spice netlist generation to klayout for, as stated, layout. Jump to the [set-up tutorial]() to get started.
+This wiki covers getting started with open-source analog IC design tools. The basic flow is [xschem](https://xschem.sourceforge.io/) for schematic capture, simulation, and SPICE netlist generation, then [KLayout](https://www.klayout.de/) for layout.
 
-# Setting up the environment
+Start by setting up the [IIC-OSIC-TOOLS](https://github.com/iic-jku/iic-osic-tools) container, following the [Setting Up Open Source Tools with Docker](https://kwantaekim.github.io/2024/05/25/OSE-Docker/) tutorial.
 
-## Before you leave!
-### Tutorials
-Continue working with the environment and experiment with doing the following blocks from schematic to layout:
-1. [Ring Oscillator](https://asic-network.github.io/analog-tutorials/#page_2)
+### Pages
+Once your environment is set up, work through the following examples, taking each block from schematic to layout:
+1. [Inverter](https://asic-network.github.io/analog-tutorials/#page_2)
+2. [Ring oscillator](https://asic-network.github.io/analog-tutorials/#page_3)
 
-### Other resources
-1. [Terminology](https://github.com/ASIC-Network/analog-tutorials/wiki/Terminology)
-> [!NOTE]
-> This is a great [extensive course](https://iic-jku.github.io/analog-circuit-design/aicd.html#sec-gmid-method) on how to do analog design! These tutorials just serve to teach students how to run through schematic and layout on the open source tools (start to end on the workflow).
+### Literature recommendations
+* [Practical Electronics for Inventors](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf) by Paul Scherz
+* Fundamentals of Microelectronics by Behzad Razavi
+* CMOS VLSI Design, A Circuits and Systems Perspective by Neil H. E. Weste and David Money Harris
+* [Open Circuits: The Inner Beauty of Electronic Components](https://archive.org/details/open-circuits) by Windell Oskay 
+* [AIC2023](https://analogicus.com/aic2023/) — and other years (e.g. AIC2026) — teaches core analog IC concepts while building circuits on the SKY130 PDK
+
+### Associated
+- [Terminology](https://zerotoasiccourse.com/terminology/) overview
+- Learn Linux with [Bandit](https://overthewire.org/wargames/bandit/)
+- Test Verilog and Digital Logic with [EDA Playground](https://edaplayground.com/x/KjwN)
+- [Awesome open source ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources)
