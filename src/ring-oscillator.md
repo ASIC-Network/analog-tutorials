@@ -1,12 +1,3 @@
-<!--
-  ASIC Network docs page. quick rules:
-  - filename must be page_N.md, numbered with no gaps (page_1.md, page_2.md, ...)
-  - the first "# Heading" becomes this page's name in the sidebar, one H1 per page
-  - raw HTML is not rendered, stick to markdown (this comment is stripped)
-  - images live in the repo (e.g. img/...) and are referenced by relative path
-  - copy TEMPLATE.md to start a new page
--->
-
 # Ring Oscillator
 
 A 5-stage ring oscillator on SKY130, from schematic to simulated frequency. This page doubles as the **formatting reference**: every construct the renderer understands is used somewhere below.
@@ -15,7 +6,7 @@ A 5-stage ring oscillator on SKY130, from schematic to simulated frequency. This
 
 ## Overview
 
-The ring oscillator is the *hello world* of analog design: it needs correct device models, a working simulator, and nothing else. If this page simulates cleanly, your [toolchain setup](page_2.md) is good and every later tutorial will run.
+The ring oscillator is the *hello world* of analog design: it needs correct device models, a working simulator, and nothing else. If this page simulates cleanly, your [toolchain setup](inverter.md) is good and every later tutorial will run.
 
 Inline styles for reference: **bold**, *italic*, ***both***, `inline code`, ~~struck~~, and an external link to the [SKY130 PDK docs](https://skywater-pdk.readthedocs.io).
 
@@ -28,9 +19,8 @@ Inline styles for reference: **bold**, *italic*, ***both***, `inline code`, ~~st
 - Basic familiarity with SPICE netlists
 
 ## Schematic
+
 ![5-stage ring oscillator](img/ring_osc_schematic.png "Five inverters in a loop, buffered output")
-
-
 
 Keep the loop symmetric: identical `W/L` on every stage, and buffer the tap so the probe capacitance does not load the ring.
 
@@ -89,4 +79,4 @@ Frequency tracks `1/t_pd`, so expect roughly linear movement with VDD across cor
 
 - [SKY130 device documentation](https://skywater-pdk.readthedocs.io)
 - [ngspice manual](https://ngspice.sourceforge.io/docs.html)
-- next up: [toolchain setup](page_2.md)
+- next up: [toolchain setup](inverter.md)

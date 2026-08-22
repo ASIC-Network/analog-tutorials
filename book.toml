@@ -1,0 +1,28 @@
+[book]
+title = "Analog Tutorials"
+authors = ["ASIC Network"]
+language = "en"
+src = "src"
+
+[build]
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/ASIC-Network/analog-tutorials"
+edit-url-template = "https://github.com/ASIC-Network/analog-tutorials/edit/main/{path}"
+additional-css = ["theme/asic-network.css"]
+additional-js = ["theme/asic-network.js"]
+site-url = "/analog-tutorials/"
+input-404 = "404.md"
+default-theme = "light"
+preferred-dark-theme = "light"
+
+[output.html.playground]
+copyable = true
+editable = false
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 20
+use-boolean-and = true
