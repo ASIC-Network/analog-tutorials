@@ -66,7 +66,6 @@ ngspice inverter_tb.spice
 - `vm` is the switching threshold: where the DC transfer curve crosses VDD/2. With PMOS 3x wider it should sit close to mid-rail
 - `trise` / `tfall` are the 10-90% output transition times into the 10 fF load
 
-<<<<<<< HEAD:Pages/page_2.md
 ## Layout
 
 ```bash
@@ -133,15 +132,8 @@ You want the final report to say the circuits match uniquely.
 
 ## Concluding
 
-Once this works, try the [Ring Oscillator](page_3.md), which chains five of these inverters into a loop.
+Once this works, try the [Ring Oscillator](ring-oscillator.md), which chains five of these inverters into a loop.
 
 ---
 
 *Questions? Ask in the network Discord.*
-=======
-- [ ] Schematic captures NMOS + PMOS with correct connectivity
-- [ ] DC sweep shows correct switching behavior
-- [ ] Transient sim shows clean rise/fall
-- [ ] Layout matches schematic connectivity
-- [ ] DRC clean
->>>>>>> 8617b6533c474a43a392887e1a31e68daba098ea:src/inverter.md
