@@ -15,6 +15,12 @@ Once your environment is set up, work through the following examples, taking eac
 * CMOS VLSI Design, A Circuits and Systems Perspective by Neil H. E. Weste and David Money Harris
 * [Open Circuits: The Inner Beauty of Electronic Components](https://archive.org/details/open-circuits) by Windell Oskay 
 * [AIC2023](https://analogicus.com/aic2023/) and other years (e.g. [AIC2026](https://analogicus.com/aic2026/)) teaches core analog IC concepts while building circuits on the SKY130 PDK
+* Electric Circuits, 12Ed, 2023, Nilsson, Riedel
+* Microelectronic Circuits, 8Ed, 2019, Sedra, Smith, Carusone
+* Fundamentals of Microelectronics, 3Ed, 2021, Razavi
+* Modern Semiconductor Devices for Integrated Circuits, 2009, Hu
+* Analog Integrated Circuit Design, 2Ed, 2011, Johns, Martin, Carusone
+
 
 ### Learning resources
 - [Xschem editor commands](http://repo.hu/projects/xschem/xschem_man/commands.html)
